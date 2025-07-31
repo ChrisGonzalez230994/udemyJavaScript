@@ -1,16 +1,25 @@
 /*
-1 dos clases (mínimo)
-2 etiqueta <div>
-3 reemplazar formatos por <span>
+1 dos clases (mínimo) LISTO!!!!
+2 etiqueta <div> LISTO!!!!
+3 reemplazar formatos por <span> LISTO EN LA LA PAGINA estudios.html!!!!
 4 usar los 3 tipos de selectores
-	.de tipo, de clase , y de id
-	.de atributo
-	. de pseudo-clase y pseudo-elemento
+	• de tipo (ej <p>) LISTO!!!!
+  • de clase(ej. ".titulo-principal") LISTO!!!!
+  • de id(ej. #prueba) LISTO!!!!
+	• de atributo(ej. href*=".edu") LISTO!!!!
+	• de pseudo-clase y pseudo-elemento LISTOO!!!
 5 al menos un combinador
 */
 
 /* titulos.css */
+/*Clases*/
+
+body{
+  background-color:darkgray;
+}
+
 .titulo-principal {
+  text-align: center;
   font-size: 2.5rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -50,6 +59,16 @@
   margin-bottom: 1rem;
 }
 
+#volver{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f39c12;
+}
+
+
+
+/*Div*/
+/*Span en los colores de las materias*/
 .materias{
   background-color: #111;
   border: 2px solid #0ff;
@@ -68,4 +87,46 @@
   border: 1px solid rgba(255, 255, 255, 0.3);
   padding: 2rem;
   color: #000;
+}
+
+/*Selector por id*/
+#prueba{
+  font-size: 25px;
+  font-weight: 700;
+  color:rgb(78, 47, 6);
+}
+
+/*Selector de atriburo*/
+a[href*=".html"]{
+    background-color: rgb(75, 50, 13);
+    color: #f79f3a;
+}
+
+a:hover{
+    color: rgb(255, 255, 255);
+}
+
+
+
+/*Estilos para la posicion de las fotos en hobbies.html*/
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* dos columnas */
+  gap: 20px; /* espacio entre imágenes */
+  width: 80%;
+  margin: auto;
+}
+
+.grid-item {
+  text-align: center;
+}
+
+
+/*Combinadores */
+div h2{
+  color: #53370a;
+}
+
+div h2:hover{
+  color: white;
 }
