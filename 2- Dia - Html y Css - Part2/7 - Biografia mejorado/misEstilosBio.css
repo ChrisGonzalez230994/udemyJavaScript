@@ -42,15 +42,6 @@ body{
   margin-bottom: 0.5rem;
 }
 
-.titulo-destacado {
-  font-size: 2rem;
-  font-weight: bold;
-  background: linear-gradient(to right, #f39c12, #e74c3c);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  margin-bottom: 1rem;
-}
-
 .titulo-con-sombra {
   font-size: 2rem;
   font-weight: 700;
@@ -89,7 +80,6 @@ body{
   color: #000;
 }
 
-<<<<<<< Updated upstream:2- Dia - Html y Css - Part2/7 - Biografia mejorado/misEstilosBio.css
 /*Selector por id*/
 #prueba{
   font-size: 25px;
@@ -110,8 +100,6 @@ a:hover{
 
 
 /*Estilos para la posicion de las fotos en hobbies.html*/
-=======
->>>>>>> Stashed changes:2- Dia/7 - Biografia mejorado/misEstilosBio.css
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr; /* dos columnas */
@@ -124,7 +112,6 @@ a:hover{
   text-align: center;
 }
 
-<<<<<<< Updated upstream:2- Dia - Html y Css - Part2/7 - Biografia mejorado/misEstilosBio.css
 
 /*Combinadores */
 div h2{
@@ -133,8 +120,4 @@ div h2{
 
 div h2:hover{
   color: white;
-=======
-img {
-  width: 100%;
->>>>>>> Stashed changes:2- Dia/7 - Biografia mejorado/misEstilosBio.css
 }
